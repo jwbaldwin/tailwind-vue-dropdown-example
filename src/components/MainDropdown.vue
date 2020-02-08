@@ -1,17 +1,20 @@
 <template>
-  <div>
-    <div>
-      <div></div>
-      <slot></slot>
+    <div class="flex justify-center">
+        <div class="relative">
+            <div class="fixed inset-0"></div>
+            <slot></slot>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {};
-  },
-  methods: {}
+    data() {
+        return {
+        };
+    },
+    methods: {
+
+    },
 };
 </script>
